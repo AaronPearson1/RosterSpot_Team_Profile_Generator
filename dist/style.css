@@ -1,23 +1,25 @@
+.jumbotron{
+  padding-bottom: 55rem;
+  max-width: 100%;
+  margin: 0
+}
+h1{
+  text-align: center;
+  background-color: goldenrod;
+  max-width: 100%;
+  margin: 0;
+}
+.container{
+  max-width: 100%;
+  margin-top: 5%;
+}
 .container-fluid {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  max-width: 100%;
 }
 
 .card {
-  width: 18rem;
+  width: 20rem;
   margin: 30px;
-}
-
-@media (max-width: 330px) {
-  .card {
-    width: 250px;
-  }
-}
-
-@media (min-width: 1400px) {
-  .container-fluid {
-    width: 1400px;
-  }
 }
